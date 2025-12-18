@@ -9,4 +9,137 @@
   
 }
 
+.chat-container {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/011/113/829/original/aesthetic-cute-pastel-blue-abstract-minimal-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-and-banner-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+    height: 70vh;
+    
+    
+}
+
+.logosection {
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.card-body1{
+    flex: 1;
+    backdrop-filter: blur(1px) saturate(200%);
+    -webkit-backdrop-filter: blur(1px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+   
+}
+
+.card-body2  {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1px) saturate(200%);
+    -webkit-backdrop-filter: blur(1px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+.card-body3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1px) saturate(200%);
+    -webkit-backdrop-filter: blur(1px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.searchbox{
+  
+  padding: 0.75rem;
+  border-radius: 0.5rem;          /* rounded */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.searchinput {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;      /* rounded-md */
+  border: 1px solid #4b5563;      /* gray-600 */
+  background-color: #1f2937;      /* gray-800 */
+  color: #e5e7eb;                 /* gray-200 */
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.chatusers {
+  padding: 0.75rem;
+  border-radius: 0.5rem;          /* rounded */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 50vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  scrollbar-width: thin;           /* Firefox */
+  scrollbar-color: #4b5563 #ffffff;
+  
+}
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem; 
+  width: 100%;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;      /* rounded-md */
+  border: 1px solid #4b5563;      /* gray-600 */
+  background-color: #1f2937;      /* gray-800 */
+  color: #e5e7eb;                 /* gray-200 */
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.chat-scroll {
+  /* Hide default scrollbar but keep scrolling */
+  scrollbar-width: thin;           /* Firefox */
+  scrollbar-color: #4b5563 #1f2937; /* thumb # track */
+  
+  /* Webkit browsers (Chrome, Safari, Edge) */
+}
 

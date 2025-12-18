@@ -144,11 +144,11 @@ function Home() {
           <Element name="team">
           <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
             Meet our leadership
-          </h2></Element>
+          </h2>
           <p className="mt-6 text-lg/8 text-gray-400">
             We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
             best results for our Users.
-          </p>
+          </p></Element>
         </div>
         <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           {people.map((person) => (
