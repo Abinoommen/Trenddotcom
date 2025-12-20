@@ -11,11 +11,9 @@ export default function Signin() {
       */}
       <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8 bg-gray-900">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <img
-            alt="Your Company"
-            src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-            className="mx-auto h-10 w-auto"
-          />
+          <p className="text-2xl font-bold text-white text-center">
+                Chati<span class="text-blue-500">Z</span>
+              </p>
           <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-white">Sign in to your account</h2>
         </div>
 
@@ -72,8 +70,8 @@ export default function Signin() {
 
           <p className="mt-10 text-center text-sm/6 text-gray-400">
             Not a member?{' '}
-            <a href="#" className="font-semibold text-indigo-400 hover:text-indigo-300">
-              Start a 14 day free trial
+            <a href="/signup" className="font-semibold text-indigo-400 hover:text-indigo-300">
+              Sign up now!
             </a>
           </p>
         </div>

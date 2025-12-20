@@ -4,6 +4,9 @@ import { ChevronDownIcon } from '@heroicons/react/16/solid'
 export default function Signup() {
   return (
     <div className="bg-gray-900">
+      <p className="text-2xl font-bold text-white text-center pt-8">
+                Chati<span class="text-blue-500">Z</span>
+              </p>
     <form className='mx-auto max-w-4xl p-8' action="#" method="POST">
       <div className="space-y-12">
         <div className="border-b border-white/10 pb-12">
